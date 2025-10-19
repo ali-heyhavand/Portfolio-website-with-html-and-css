@@ -3,12 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
 
-    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-
-    <title>portfolio website</title>
+    <title>Portfolio</title>
   </head>
   <body>
 
@@ -22,54 +28,69 @@
     </div>
 
 
-    <nav class="navbar">
-      <a class="logo" href="">Portfolio</a>
-      <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
+    <div class="conatainer">
+      <ul class="offcanves">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Project</a></li>
         <li><a href="#">Service</a></li>
         <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
       </ul>
-    </nav>
+      <nav class="navbar">
+        <h1><a class="logo" href="#">Portfolio</a></h1>
+        <ul class="extend">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Project</a></li>
+          <li><a href="#">Home</a></li>
+        </ul>
+        <span class="logo-menu"><i class="bx bx-menu"></i></span>
+      </nav>
+    </div>
 
-    <section class="home">
-      <div class="home-info">
-        <h1>Ali Heyhavand</h1>
-        <h2>
-          I'm 
-          <span style="--i:4;" data-text="Frontend">Frontend</span>
-          <span style="--i:3;" data-text="Developer">Developer</span>
-          <span style="--i:2;" data-text="Designer">Designer</span>
-          <span style="--i:1;" data-text="Gamer">Gamer</span>
-        </h2>
-        <span class="border"></span>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quasi
-          vitae aut excepturi. Sed eos error libero ratione suscipit accusamus
-          fugit iusto repellat? Iusto rerum molestias magnam eligendi, ullam
-          itaque. Corporis culpa alias autem optio, voluptate natus laboriosam
-          quibusdam eveniet ex sapiente molestias. Obcaecati debitis reiciendis
-          enim, qui, officia temporibus quia voluptatibus dolor ipsa nemo
-          eveniet itaque excepturi architecto delectus.
-        </p>
-        <div class="home-btn">
-          <a class="btn" href="#">Download</a>
-          <div class="home-sc">
-            <a href="#"><i class='bxl  bx-github'></i></a>
-            <a href="#"><i class='bxl  bx-twitter'></i></a>
-            <a href="#"><i class='bxl  bx-instagram'></i></a>
-            <a href="#"><i class='bxl  bx-linkedin'></i></a>
+    <div class="section-home conatainer">
+      <div class="row">
+        <div class="home-info">
+          <h1>Ali Heyhavand</h1>
+          <h2>
+            I'm
+            <span style="--i:4;" data-text="Frontend Developer">Frontend Developer</span>
+            <span style="--i:3;" data-text="Youtuber">Youtuber</span>
+            <span style="--i:2;" data-text="Designer">Designer</span>
+            <span style="--i:1;" data-text="Gamer">Gamer</span>
+          </h2>
+          <span class="divider"></span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+            soluta veniam ex laudantium debitis perspiciatis in, doloremque nam
+            quisquam illo? Pariatur voluptatem fugiat ex quaerat eum odio,
+            expedita ratione. Atque totam beatae ab. Accusantium delectus saepe
+            fugiat, voluptas iusto vitae, repellat mollitia impedit dignissimos
+            quasi quisquam? Non commodi reprehenderit, laborum dolorum illum
+            corporis veniam totam nemo alias cum quia dolor. Voluptatum nam
+            accusamus saepe consequuntur quaerat vitae cupiditate minima vel
+            assumenda corrupti laboriosam voluptatibus, deserunt laborum, quas
+            iusto minus eius, qui impedit.
+          </p>
+          <div class="btn-home">
+            <a class="btn" href="#">Download</a>
+            <div class="btn-so">
+              <a href="#"><i class="bxl bx-twitter"></i></a>
+              <a href="#"><i class="bxl bx-instagram"></i></a>
+              <a href="#"><i class="bxl bx-linkedin"></i></a>
+              <a href="#"><i class="bxl bx-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="img-home">
+          <div class="img-part">
+            <div class="img"></div>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="home-img">
-        <div class="img">
-            <img src="./images/picture.png">
-        </div>
-      </div>
-
-    </section>
+    <script src="./app.js"></script>
   </body>
 </html>
